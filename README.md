@@ -9,3 +9,5 @@ Contents
   for what database you want and once you mention it the database dump will be there. 
   
   
+2.mysqldump-to-csv.sql
+   This sql dumps table data to a csv formatted file. read commented lines on how to run the script.
