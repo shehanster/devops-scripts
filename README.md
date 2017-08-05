@@ -11,3 +11,6 @@ Contents
   
 2.mysqldump-to-csv.sql
    This sql dumps table data to a csv formatted file. read commented lines on how to run the script.
+
+3.get-mysql-userlist.pl 
+a little perl script to run against with root credentials or superuser credentials to get user and host with their grants to display on CLI.
