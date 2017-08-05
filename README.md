@@ -1,4 +1,4 @@
-# devops-scripts
+# Devops-scripts
 This is a collection of various kinds of scripts used to automate asks written in many languages depending on the requirement. 
 
 
@@ -14,3 +14,6 @@ Contents
 
 3.get-mysql-userlist.pl 
 a little perl script to run against with root credentials or superuser credentials to get user and host with their grants to display on CLI.
+
+4.pipe_mysqldump.sh
+This script lets you use the mysql dump in realtime to dump very large data from mysql to another mysql instance if replication or file copy is not possible.
