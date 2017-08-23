@@ -1,7 +1,6 @@
- #!/usr/bin/perl -w
+#!/usr/bin/perl -w
 use DBI;
-$dbh = DBI->connect('dbi:mysql:mysql','root','passowrd')
-or die "Connection Error: $DBI::errstr\n";
+$dbh = DBI->connect("DBI:mysql:database=mysql;host=mysql1.mydomain.com", "user", "password",{'RaiseError' => 1});
 $sql = "select user,host from user";
 $sth = $dbh->prepare($sql);
 $sth->execute or die "SQL Error: $DBI::errstr\n";
@@ -15,3 +14,4 @@ while (@row = $sth->fetchrow_array) {
    }
 }
 }
+
