@@ -1,6 +1,6 @@
  #!/usr/bin/perl -w
 use DBI;
-$dbh = DBI->connect('dbi:mysql:mysql','root','gvt123')
+$dbh = DBI->connect('dbi:mysql:mysql','root','passowrd')
 or die "Connection Error: $DBI::errstr\n";
 $sql = "select user,host from user";
 $sth = $dbh->prepare($sql);
