@@ -17,3 +17,7 @@ a little perl script to run against with root credentials or superuser credentia
 
 > **4.pipe_mysqldump.sh**
 This script lets you use the mysql dump in realtime to dump very large data from mysql to another mysql instance if replication or file copy is not possible.
+
+
+
+I have started to use gists for scripts so please go to https://gist.github.com/shehanster to see all the new scripts
